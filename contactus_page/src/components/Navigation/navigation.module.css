@@ -7,8 +7,6 @@ nav{
     height:72px;
     box-shadow:0 0 6px 3px rgba(0,0,0,0.3);
     
-  
-    
   }/*
   nav::after{
   content:"";
@@ -31,9 +29,7 @@ nav{
     list-style: none;
     gap:30px;
     font-weight:500;
-    
- 
-  }
+    }
 
   nav ul li a{
     text-decoration:none;
