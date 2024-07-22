@@ -33,7 +33,7 @@ export const Contactform = () => {
             </fieldset> 
             <fieldset>
             <legend> <label htmlFor="text" >PROBLEM :</label></legend>
-            <textarea  name="text" placeholder='Enter Problem' rows={4} cols={55} />  
+            <textarea  name="text" placeholder='Enter Problem' rows={2} cols={55} />  
             </fieldset> 
              
             
