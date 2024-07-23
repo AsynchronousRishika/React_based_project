@@ -48,6 +48,7 @@ things i didn't wrote in code
 ----------------------------------------
 3. className={styles.CLASSNAME}
 4. event.preventDefault();
+
 ![alt text](readme_image\image.png)
 
 5.  
@@ -58,6 +59,12 @@ things i didn't wrote in code
 ![alt text](readme_image\image2.png)
 for printing form data in console window
  on submitting form in console window we got the form data
- ![alt text](readme_image\image3.png)
 
-  ![alt text](image.png)
+
+ 7. ![alt text](readme_image\image3.png)
+ using usestate hook for changing value of name email text phonenumber.kyunki react simply defined variable ko re render nhi krpata h  esliye use state  hook k use kiya taaki agr hum jsx m variable ko likh rhe h toh wwo upadte hoske  
+
+
+
+
+8.  ![alt text](readme_image\image4.png)
