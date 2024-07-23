@@ -43,3 +43,21 @@ render() {
 2.
 
 import css file in navigation.jsx file
+----------------------------------------
+things i didn't wrote in code
+----------------------------------------
+3. className={styles.CLASSNAME}
+4. event.preventDefault();
+![alt text](readme_image\image.png)
+
+5.  
+ after preventDefault()
+ 
+![alt text](readme_image\image1.png)
+6. 
+![alt text](readme_image\image2.png)
+for printing form data in console window
+ on submitting form in console window we got the form data
+ ![alt text](readme_image\image3.png)
+
+  ![alt text](image.png)
