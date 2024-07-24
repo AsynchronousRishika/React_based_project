@@ -41,6 +41,7 @@ font-weight:500;
 font-size:18px;}
 `
 const Box=styled.div`
+cursor:pointer;
 height:72px;
 width:72px;
 border:2px solid black;

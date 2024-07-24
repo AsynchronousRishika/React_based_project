@@ -11,16 +11,7 @@ box-shadow:1px 1px 8px 1px grey,
 -1px -1px 8px 1px grey inset;
 border-radius:20px;
 border:none;
-font-weight:bold;
-
-
-&:hover{
-background-color:lightblue;
-border:1px solid black;
-color:grey;
-box-shadow:1px 1px 8px 1px black,
--1px -1px 8px 1px black inset;
-transition:0.3s background-color ease-in-out;}`
+font-weight:bold;`
 
 const  Rolldice = ({currentDice,rollDice}) => {
 
@@ -34,6 +25,7 @@ const  Rolldice = ({currentDice,rollDice}) => {
         <img src={`/dice/dice_${currentDice}.png`} alt="dice" />
        </div>
        <Button>Click on Dice to roll</Button>
+        
     </RolldiceContainer>
   )
 }

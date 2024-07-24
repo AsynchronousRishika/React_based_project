@@ -1,27 +1,5 @@
 import styled from "styled-components";
-
-const Button = styled.button`
-width:50%;
-background:#000000;
-color:white;
-padding:10px 18px;
-box-shadow:1px 1px 8px 1px grey,
--1px -1px 8px 1px grey inset;
-border-radius:20px;
-border:none;
-font-weight:bold;
-
-
-&:hover{
-background-color:grey;
-border:1px solid black;
-color:black;
-box-shadow:1px 1px 8px 1px black,
--1px -1px 8px 1px black inset;
-transition:0.3s background-color ease-in-out;}
-
-
-`
+import { Button } from "./styled/Button";
 const StartGame = ({toggle}) => {
   return (
     <>
@@ -47,7 +25,7 @@ const Container = styled.div`
   display: flex;
   margin: 0 auto;
   align-items: center;
-  border:2px solid red;
+ 
   .image img{
   width:100%;
   height:100%;
@@ -75,7 +53,7 @@ const Container = styled.div`
         left:829px;     
        
         position:absolute;
-        transition:all 2.5s ease-in-out ;
+        transition:all 1.5s ease-in-out ;
         
         }
         h1:hover::before
