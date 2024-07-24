@@ -96,6 +96,8 @@ whenever we use a function as paarameter which is used as a prop in react compon
 
 6. go to startgame.jsx file to see amazing styling of DICE GAME sentence  inside container component 
 
+
+e
 7.  go to numberselected file 
  <Box isSelected={value==selectedNumber} key={i} onClick={()=>setSelectedNumber(value)}>{value}</Box>
 
